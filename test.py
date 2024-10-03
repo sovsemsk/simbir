@@ -21,7 +21,6 @@ options.set_capability("selenoid:options", {
 
 @pytest.fixture(scope="session")
 def driver():
-    # driver = webdriver.Remote(command_executor="http://9bea7b5c.portrate.io/wd/hub", options=options)
     driver = webdriver.Remote(command_executor="http://185.93.109.120:4444/wd/hub", options=options)
     driver.implicitly_wait(5)
     yield driver
