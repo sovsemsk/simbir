@@ -3,7 +3,7 @@
 Установка окружение и запуск теста (Python3.12, venv):
 
 - pip install -r requirements.txt
-- pytest --alluredir=./reports test.py
+- pytest --alluredir=./reports banking_test.py
 
 Запуски Allure
 
