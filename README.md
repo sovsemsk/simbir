@@ -10,5 +10,5 @@
 - allure serve ./reports
 
 Директории csv и reports не добавлял в .gitignore нарочно :)
-Selenoid развернут на моей VPS и доступен по указанному в конфигк IP.
+Selenoid развернут на моей VPS и доступен по указанному в конфиге IP.
 Selenoid UI доступен по http://185.93.109.120:8080/#/.
