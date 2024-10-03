@@ -34,7 +34,7 @@ def write_transactions(transactions):
 
     with open(filename, "w") as file:
         writer = csv.writer(file, delimiter=",")
-        writer.writerow(("Date", "Balance", "Type"))
+        writer.writerow(("Date", "Amount", "Type"))
 
         for transaction in transactions:
             writer.writerow((
