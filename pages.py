@@ -5,12 +5,7 @@ from pypom import Page, Region
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
-
-def fib(n):
-    a, b = 0, 1
-    for __ in range(n):
-        a, b = b, a + b
-    return a
+from utils import fib
 
 
 class Login(Page):

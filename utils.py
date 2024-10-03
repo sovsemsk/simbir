@@ -3,6 +3,12 @@ import csv
 from datetime import datetime
 from dateutil.parser import parse
 
+def fib(n):
+    a, b = 0, 1
+    for __ in range(n):
+        a, b = b, a + b
+    return a
+
 def write_transactions_csv(transactions):
     # Не очень понятно, в тз написано ДД Месяц ГГГГ ЧЧ:ММ:СС, если дата нужна на русском то нужно сетнуть локаль
     # locale.setlocale(locale.LC_ALL, "ru_RU.UTF-8")

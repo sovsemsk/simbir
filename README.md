@@ -1,11 +1,11 @@
 # Тестовое задание SimbirSoft
 
-Установка окружение и запуск теста (Python3.12, venv):
+Установка окружения и запуск теста (Python3.12, venv):
 
 - pip install -r requirements.txt
 - pytest --alluredir=./reports banking_test.py
 
-Запуски Allure
+Запуск Allure
 
 - allure serve ./reports
 
