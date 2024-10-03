@@ -1,1 +1,14 @@
-# simbir
+# Тестовое задание SimbirSoft
+
+Установка окружение и запуск теста (Python3.12, venv):
+
+- pip install -r requirements.txt
+- pytest --alluredir=./reports test.py
+
+Запуски Allure
+
+- allure serve ./reports
+
+Директории csv и reports не добавлял в .gitignore нарочно :)
+Selenoid развернут на моей VPS и доступен по указанному в конфигк IP.
+Selenoid UI доступен по http://185.93.109.120:8080/#/.
